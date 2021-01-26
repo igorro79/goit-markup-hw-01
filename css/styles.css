@@ -1,0 +1,43 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color:#2196f3; 
+  --text-hover-color: #2196f3;
+  --secondary-accent-color: #ffffff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color);
+}
+.list {
+  list-style: none;
+  font-size: 14px;
+}
+
+/* header */
+
+.logo-text {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+}
+.logo-accent-color {
+  color: var(--accent-text-color);
+}
+.site-nav .link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.site-nav .link:hover {
+  color: var(--text-hover-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.auth-nav .link:hover {
+  color: var(--text-hover-color);}
+}
